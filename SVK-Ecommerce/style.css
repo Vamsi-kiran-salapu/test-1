@@ -1,0 +1,85 @@
+/*======================================
+    BASIC SETUP
+========================================*/
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing:border-box;
+	 box-sizing:border-box;
+margin: 0;
+padding: 0;}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: Poppins, sans-serif;
+}
+/*======================================
+========================================*/
+
+/*======================================
+           HOME PAGE
+========================================*/
+.home{
+background: radial-gradient(#fde5e5,#f77171);
+height: 100vh;
+width: 100vw;
+    }
+
+#main-img {
+    background-image: url(img/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main-img img{
+    display: flex;
+    width: 100%;
+    }
+.main-heading{
+  font-size: 200%;
+  margin-top: 30%;
+}
+.main-btn{
+    margin-left: 45%;
+    border-radius: 1000px;
+}
+.carousel-inner{
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+}
+.carousel-item img{
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+}
+
+
+/*======================================
+========================================*/
+@media only screen and (max-width:480px){
+   .carousel-inner{
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+.carousel-item img{
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
